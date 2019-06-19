@@ -1,1 +1,10 @@
-@import './components/header'
+@import './base/settings';
+@import './base/base';
+
+@import './components/box-layout';
+@import './components/button';
+@import './components/content-container';
+@import './components/header';
+@import './components/home-portal';
+@import './components/inputs';
+@import './components/video-player';

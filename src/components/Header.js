@@ -2,11 +2,13 @@ import React from 'react'
 
 const Header = () => (
     <header className="header">
-        <div>
-            <h1>DJ NoBangers</h1>
-            <button>Rooms</button>
-            <button>About</button>
-            <button>Account</button>
+        <div className="content-container">
+            <div className="header__content">
+                <h1 className="header__title">DJ NoBangers</h1>
+                <button className="button button--link">Rooms</button>
+                <button className="button button--link">About</button>
+                <button className="button button--link">Account</button>
+            </div>
         </div>
     </header>
 )
